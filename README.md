@@ -2,7 +2,7 @@
 
 This repository contains the data, code and model used for the FDL kaggle competition as well as the report.
 It is organized as follows:
-
+```
 FDL_competition/
 |_ mlruns/                                     <- folder containing the various models tested and their characteristics and performance (hyperparameters, best validation  |                                                 loss, best model over all epochs and loss chart). For space saving reasons, only the final model was kept.
 |_ output/                                     <- the model's predicted masks as .png images
@@ -23,6 +23,6 @@ FDL_competition/
 |_ mlflow_tracking.ipynb                       <- notebook to observe and compare the results form the different runs using mlflow
 |_ submission.ipynb                            <- notebook used to run the model on the test set and prepare the submission file
 |_ training.ipynb                              <- notebook to train the model
-
+```
 
 To reproduce the results, import the folder on your Google Drive and run the submission notebook in Colab (skip the "Postprocessing" part as it is does not improve the model's performance). 
