@@ -4,12 +4,12 @@ This repository contains the data, code and model used for the FDL kaggle compet
 It is organized as follows:
 ```
 FDL_competition/
-|_ mlruns/                                     <- folder containing the various models tested and their characteristics and performance (hyperparameters, best validation  |                                                 loss, best model over all epochs and loss chart). For space saving reasons, only the final model was kept.
+|_ mlruns/                                     <- folder containing the various models tested and their characteristics and performance (hyperparameters, best validation loss, best model over all epochs and loss chart). For space saving reasons, only the final model was kept.
 |_ output/                                     <- the model's predicted masks as .png images
-|  |_ postprocessed/		                       <- the model's predicted masks after postprocessing (morphological transformations) as .png images. For space saving          |                                                 reasons, this folder was emptied.
+|  |_ postprocessed/		                       <- the model's predicted masks after postprocessing (morphological transformations) as .png images. For space saving       reasons, this folder was emptied.
 |_ test_images/		  
 |_ train_images/
-|  |_ augmented/                               <- the images resulting from the data augmentation process (rotated versions of some images). For space saving reasons, this |                                                 folder was emptied.
+|  |_ augmented/                               <- the images resulting from the data augmentation process (rotated versions of some images). For space saving reasons, this folder was emptied.
 |_ train_masks/
 |  |_ augmented/		                           <- the masks corresponding to the augmented images. For size reasons, this folder was emptied.
 |_ unet/                                       <- code for the UNet model
